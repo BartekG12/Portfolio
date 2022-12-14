@@ -61,7 +61,6 @@ const Orbity = () => {
                 )})}
                 <img className='Programista' src={Programista} alt='Programista'/>
             </div>
-            {/* <div className='Claimer'>(Animacja stworzona samodzielnie w css)</div>   */}
         </div>   
     </div>
   )
