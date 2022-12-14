@@ -1,5 +1,5 @@
 # Portfolio
- Statyczna strona portfolio i kolejny przykład efektów stosowania podstawowych zabiegów jak: 
+ Statyczna strona i kolejny przykład efektów stosowania podstawowych zabiegów jak: 
 - Prowadzenie badań
 - Projektowanie prototypu   
 - Tworzenie front-endu   
