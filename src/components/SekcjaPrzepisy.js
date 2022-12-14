@@ -9,7 +9,7 @@ import DjangoIcon from '../img/ikony/umiejętności/django.svg'
 import RenderIcon from '../img/ikony/narzędzia/render.svg'
 
 const SekcjaPrzepisy = () => {
-  let linki = ['', '']
+  let linki = ['https://oryginalne-przepisy.onrender.com/', 'https://github.com/BartekG12/Oryginalne-Przepisy']
   let techIcons = [SQLIcon, DjangoIcon, RenderIcon]
   let CzyGithub = true
   return (
