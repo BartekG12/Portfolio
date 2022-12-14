@@ -6,6 +6,17 @@ import Naglowek from './components/Naglowek'
 import SekcjaGlowna from './components/SekcjaGlowna'
 import PasekKontaktu from './components/PasekKontaktu'
 
+
+import LiniaIcon from './img/zdjęcia/lSekcji.png'
+import LiniaDrugaIcon from './img/zdjęcia/lSekcjiDwa.png'
+import RamkaIcon from './img/zdjęcia/ramkaDwa.png'
+import Test from './img/zdjęcia/test.jpg'
+
+import BOne from './img/zdjęcia/borderOne.png'
+import Btwo from './img/zdjęcia/borderTwo.png'
+import SecBo from './img/zdjęcia/sectionBorder.png'
+
+
 function App() {
   function mojTextFit() {
     let WybraneSekcjeTekstu = document.querySelectorAll(".KontrolaTekstu");

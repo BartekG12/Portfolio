@@ -304,8 +304,8 @@ a {
     align-items: center;
     width: calc(50% - 85px);
     height: 6px;
-    /* background-image: url("/liniaSekcji.png"); */
-    background-image: url("https://drive.google.com/file/d/1DaygCvfHZOjRfYLcSKv8iObf-cN3ZwK5/view?usp=sharing");
+    background-image: url("..\\public\\liniaSekcji.png") !important;
+    
     background-size: 100%;
 }
 .TytulSekcji {
@@ -362,7 +362,6 @@ a {
     align-items: center;
     justify-content: center;
     /* background-image: url("/ramka.png"); */
-    background-image: url("https://drive.google.com/file/d/1YTfeffKFezHWgZYDFaXtw-f0omNIc_zl/view?usp=sharing");
     background-size: 100% 100%;
 }
 .TekstLinki {
@@ -1091,8 +1090,7 @@ input[type=submit]:hover {
         align-items: center;
     }
     .PrzerywanaSekcji {
-        background-image: url("https://drive.google.com/file/d/1Xl0NADwN0QumzQfx6MkFmGb3KU0Bq7AJ/view?usp=sharing");
-        /* background-image: url("/liniaSekcji2.png"); */
+        background-image: url("..\\public\\liniaSekcji2.png");
     }
 }
 @media screen and (max-width: 750px) {
