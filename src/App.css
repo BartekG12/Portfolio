@@ -361,7 +361,8 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    /* background-image: url("/ramka.png"); */
+    /* background-image: url("/"); */
+    background-image: url("..\\public\\ramka.png");
     background-size: 100% 100%;
 }
 .TekstLinki {
@@ -1091,6 +1092,7 @@ input[type=submit]:hover {
     }
     .PrzerywanaSekcji {
         background-image: url("..\\public\\liniaSekcji2.png");
+        
     }
 }
 @media screen and (max-width: 750px) {
