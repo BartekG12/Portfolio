@@ -1,1 +1,7 @@
-Statyczna strona portfolio. To kolejny przykład efektów stosowania podstawowych zabiegów jak: Prowadzenie badań, projektowanie prototypu, tworzenie front-endu, tworzenie animacji, nadawanie responsywności, publikacja na serwerze itp.
+Statyczna strona portfolio. To kolejny przykład efektów stosowania podstawowych zabiegów jak: 
+- Prowadzenie badań
+- Projektowanie prototypu   
+- Tworzenie front-endu   
+- Tworzenie animacji  
+- Nadawanie responsywności   
+- Publikacja na serwerze itp.  
