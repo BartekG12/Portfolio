@@ -28,7 +28,7 @@ const SekcjaFormularz = () => {
         zmienKlaseWysylania('cosWysyla')
         zmienStanWysylania('Wysyłanie w toku..')
         
-        emailjs.sendForm('service_64mvbxh', 'template_jlpdgg9', form.current, 'M7e2a8cbW4OMWc-NS')
+        emailjs.sendForm(process.env.REACT_APP_SERVICE, process.env.REACT_APP_TEMPLATE, form.current, process.env.REACT_APP_LAST)
           .then((result) => {
             zmienKlaseWysylania('takWysyla')
             zmienStanWysylania('Wysłano wiadomość!')
