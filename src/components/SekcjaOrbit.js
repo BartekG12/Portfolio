@@ -17,6 +17,7 @@ import GithubIcon from '../img/ikony/narzędzia/github.svg'
 import RenderIcon from '../img/ikony/narzędzia/render.svg'
 import VSCIcon from '../img/ikony/narzędzia/VSC.svg'
 
+
 const Orbity = () => {
     let UmiejetnosciINarzedzia = [CssIcon, DjangoIcon, HtmlIcon, JSIcon, PythonIcon, 
         ReactIcon, RestAPIIcon, SQLIcon, FigmaIcon, GitIcon, GithubIcon, RenderIcon, VSCIcon]
@@ -25,7 +26,7 @@ const Orbity = () => {
         else return 'OrbitaNarzedzia'
     })
   return (
-    <div className='PolowniczyPojemnik'>
+    <div className='PolowniczyPojemnik'> 
         <div className='PolowniczyLewa LewaOrbity'>
         <div className='NazywamSie KontrolaTekstu'>
         Nazywam się Bartosz Gurgul i jestem programistą stron internetowych (full-stack developer).

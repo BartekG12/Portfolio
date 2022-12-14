@@ -304,7 +304,8 @@ a {
     align-items: center;
     width: calc(50% - 85px);
     height: 6px;
-    background-image: url("\\img\\zdjęcia\\liniaSekcji.png");
+    background-image: url("/liniaSekcji.png");
+    
     background-size: 100%;
 }
 .TytulSekcji {
@@ -360,7 +361,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url("\\img\\zdjęcia\\ramka.png");
+    background-image: url("/ramka.png");
     background-size: 100% 100%;
 }
 .TekstLinki {
@@ -1089,7 +1090,7 @@ input[type=submit]:hover {
         align-items: center;
     }
     .PrzerywanaSekcji {
-        background-image: url("\\img\\zdjęcia\\liniaSekcji2.png");
+        background-image: url("/liniaSekcji2.png");
     }
 }
 @media screen and (max-width: 750px) {
