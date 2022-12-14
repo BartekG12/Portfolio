@@ -1,6 +1,14 @@
 import React from 'react'
 
 import Programista from '../img/zdjęcia/programista.png'
+import LiniaIcon from '../img/zdjęcia/lSekcji.png'
+import LiniaDrugaIcon from '../img/zdjęcia/lSekcjiDwa.png'
+import RamkaIcon from '../img/zdjęcia/ramkaDwa.png'
+import Test from '../img/zdjęcia/test.jpg'
+
+import BOne from '../img/zdjęcia/borderOne.png'
+import Btwo from '../img/zdjęcia/borderTwo.png'
+import SecBo from '../img/zdjęcia/sectionBorder.png'
 
 import CssIcon from '../img/ikony/umiejętności/css.svg'
 import DjangoIcon from '../img/ikony/umiejętności/django.svg'
