@@ -304,7 +304,7 @@ a {
     align-items: center;
     width: calc(50% - 85px);
     height: 6px;
-    background-image: url("..\\public\\liniaSekcji.png") !important;
+    background-image: url("../public/liniaSekcji.png") !important;
     
     background-size: 100%;
 }
@@ -362,7 +362,7 @@ a {
     align-items: center;
     justify-content: center;
     /* background-image: url("/"); */
-    background-image: url("..\\public\\ramka.png");
+    background-image: url("../public/ramka.png");
     background-size: 100% 100%;
 }
 .TekstLinki {
@@ -1091,7 +1091,7 @@ input[type=submit]:hover {
         align-items: center;
     }
     .PrzerywanaSekcji {
-        background-image: url("..\\public\\liniaSekcji2.png");
+        background-image: url("../public/liniaSekcji2.png");
         
     }
 }
