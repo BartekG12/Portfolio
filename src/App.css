@@ -98,6 +98,10 @@ a {
     justify-content: flex-end;
     align-items: center;
 }
+.PasekKontaktu a {
+    height: auto;
+    text-decoration: none;
+}
 #MobilnyKontakt {
     display: none;
 }

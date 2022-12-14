@@ -8,12 +8,12 @@ import Github from '../img/ikony/kontakt/github.png';
 const PasekKontaktu = ({id}) => {
   return (
     <div className='PasekKontaktu' id={id}>
-        <a href='mailto:bartoszgurguldev@gmail.com'><img className='Ikona' src={Mail} alt="Mail" /></a>
-        <a href='https://www.linkedin.com/in/bartosz-gurgul-b8a968233/'><img className='Ikona' src={Linkedin} alt="Linkedin" /></a>
-        <a href='https://discordapp.com/users/681999707522072705'><img className='Ikona' src={Discord} alt="Discord" /></a>
+        <a target="_blank" href='mailto:bartoszgurguldev@gmail.com'><img className='Ikona' src={Mail} alt="Mail" /></a>
+        <a target="_blank" href='https://www.linkedin.com/in/bartosz-gurgul-b8a968233/'><img className='Ikona' src={Linkedin} alt="Linkedin" /></a>
+        <a target="_blank" href='https://discordapp.com/users/681999707522072705'><img className='Ikona' src={Discord} alt="Discord" /></a>
         <span className='mobilnySeparatorKontaktu'></span>
-        <a href=''><img className='Ikona' src={Cv} alt="Cv" /></a>
-        <a href='https://github.com/BartekG12'><img className='Ikona' src={Github} alt="Github" /></a>
+        <a target="_blank" href=''><img className='Ikona' src={Cv} alt="Cv" /></a>
+        <a target="_blank" href='https://github.com/BartekG12'><img className='Ikona' src={Github} alt="Github" /></a>
         <div className='LiniaPionowa'></div>
     </div>
   )
