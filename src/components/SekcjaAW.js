@@ -11,7 +11,7 @@ import RestAPIIcon from '../img/ikony/umiejętności/restAPI.svg'
 import RenderIcon from '../img/ikony/narzędzia/render.svg'
 
 const SekcjaAW = () => {
-  let linki = ['', '']
+  let linki = ['https://awprojekt.com/', 'https://github.com/BartekG12/AW-projekt']
   let techIcons = [DjangoIcon, ReactIcon, RestAPIIcon, RenderIcon]
   let CzyGithub = false
   return (

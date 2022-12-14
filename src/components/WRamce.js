@@ -10,10 +10,10 @@ const WRamce = ({linki, techIcons, CzyGithub}) => {
         <div className='ZobaczStrone'>
             <div className='TekstLinki'>ZOBACZ STRONĘ</div>
             <div className='LinkiStrony'>
-                <a href={linki[0]}><img src={External} /></a>
+                <a href={linki[0]} target="_blank"><img src={External} /></a>
                 {CzyGithub
-                ? <a href={linki[1]}><img src={Github} /></a>
-                : <a href={linki[1]}><img src={GithubPrzekreslony} /></a>
+                ? <a href={linki[1]} target="_blank"><img src={Github} /></a>
+                : <a href={linki[1]} target="_blank"><img src={GithubPrzekreslony} /></a>
                 }
             </div>
         </div>
