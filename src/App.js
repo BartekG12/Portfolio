@@ -6,18 +6,8 @@ import Naglowek from './components/Naglowek'
 import SekcjaGlowna from './components/SekcjaGlowna'
 import PasekKontaktu from './components/PasekKontaktu'
 
-
-import LiniaIcon from './img/zdjęcia/lSekcji.png'
-import LiniaDrugaIcon from './img/zdjęcia/lSekcjiDwa.png'
-import RamkaIcon from './img/zdjęcia/ramkaDwa.png'
-import Test from './img/zdjęcia/test.jpg'
-
-import BOne from './img/zdjęcia/borderOne.png'
-import Btwo from './img/zdjęcia/borderTwo.png'
-import SecBo from './img/zdjęcia/sectionBorder.png'
-
-
 function App() {
+  let szerokosc = 0
   function mojTextFit() {
     let WybraneSekcjeTekstu = document.querySelectorAll(".KontrolaTekstu");
     if (window.screen.width > 849.9) {
@@ -25,10 +15,6 @@ function App() {
         textFit(sekcja)
       })
     }
-  }
-  function mojResize() {
-    window.location.reload(false)
-    mojTextFit()
   }
   useEffect(() => {
     mojTextFit()
@@ -45,7 +31,7 @@ function App() {
     })
     
   }, []);
-  window.addEventListener('resize', mojResize)
+  window.addEventListener('resize', mojTextFit)
 
   return (
     <div className="App">

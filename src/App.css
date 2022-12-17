@@ -899,6 +899,11 @@ input[type=submit]:hover {
 }
 
 @media screen and (max-width: 850px) {
+    /* Usuwa właściwości automatycznego skalowania przy przejściu na widok mobilny */
+    span.textFitted {
+        font-size: inherit !important;
+    }
+
     .PrawaIS {
         margin-left: 0px;
     }
