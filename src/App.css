@@ -434,7 +434,7 @@ a {
     flex-direction: column;
     align-items: center;
     font-family: 'Lato', sans-serif;
-    font-size: clamp(8px, 1.1vw, 17px);
+    font-size: clamp(7px, 1.1vw, 17px);
     text-shadow: .2px 0 0 currentColor;
 }
 .UmiejNarz img {
@@ -904,6 +904,9 @@ input[type=submit]:hover {
         font-size: inherit !important;
     }
 
+    .UmiejNarz img {
+        margin-bottom: 20px;
+    }
     .PojemnikEdukacja {
         height: 400px;
     }
@@ -1134,6 +1137,9 @@ input[type=submit]:hover {
     }
 }
 @media screen and (max-width: 650px) {
+    .UmiejNarz img {
+        margin-bottom: 15px;
+    }
     .n0, .n1, .n2, .n3, .n4, .n5, .n6, .n7   {
         transform: rotate(120deg) scale(0.444,1.4);
     }
@@ -1173,7 +1179,7 @@ input[type=submit]:hover {
     .LewaAGH .Podsekcja {
         height: 100px;
     }
-    .PojemnikEdukacja {
+    .PojemnikEdukacja.IntersekcjaPrawa {
         height: 450px;
     }   
 }
@@ -1224,12 +1230,12 @@ input[type=submit]:hover {
     .LewaAGH .Podsekcja {
         height: 100px;
     }
-    .PojemnikEdukacja {
+    .PojemnikEdukacja.IntersekcjaPrawa {
         height: 500px;
-    }
+    }   
 }
 @media screen and (max-width: 400px) {
-    .PojemnikEdukacja {
+    .PojemnikEdukacja.IntersekcjaPrawa {
         height: 500px;
     }
 }
