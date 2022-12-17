@@ -904,6 +904,9 @@ input[type=submit]:hover {
         font-size: inherit !important;
     }
 
+    .PojemnikEdukacja {
+        height: 400px;
+    }
     .PrawaIS {
         margin-left: 0px;
     }
@@ -1026,6 +1029,9 @@ input[type=submit]:hover {
     .LewaAGH .Podsekcja {
         height: 70px;
     }
+    .PojemnikEdukacja {
+        margin-top: 0px;
+    }
 
     .PolowniczyPojemnik {
         height: auto;
@@ -1033,13 +1039,27 @@ input[type=submit]:hover {
     .PrawaOrbity {
         position: relative;
     }
-    .Tekst, .NazywamSie {
-        font-size: clamp(8px, 2vw, 40px);
-        line-height: clamp(15px, 4.5vw, 40px);
+    .Tekst, .NazywamSie, .Zapraszam, .Podsekcja {
+        padding-top: 5px;
+        font-size: clamp(12.5px, 2vw, 40px);
+        line-height: clamp(26px, 4.5vw, 40px);
+    }
+    .Witam {
+        font-size: clamp(18px, 2vw, 40px);
+        margin-bottom: 6px;
     }
     .Podsekcja {
-        font-size: clamp(9px, 2.5vw, 30px);
-        line-height: clamp(30px, 6.5vw, 40px);
+        font-size: clamp(17px, 2vw, 40px);
+    }
+    .PrawaPrzepisy .Podsekcja {
+        margin-top: 20px;
+    }
+    .ZobaczStrone div:nth-child(1), .GlowneTechnologie div:nth-child(1) {
+        font-size: clamp(8px, 1.5vw, 40px);
+        line-height: clamp(15px, 4.5vw, 40px);  
+    }
+    .TekstLinki {
+        margin-bottom: -3px;
     }
     .PojemnikWszystkichOrbit {
         position: relative;
@@ -1149,6 +1169,14 @@ input[type=submit]:hover {
         font-size: 25px;
     }
 }
+@media screen and (min-width: 450px) and (max-width: 475px) {
+    .LewaAGH .Podsekcja {
+        height: 100px;
+    }
+    .PojemnikEdukacja {
+        height: 450px;
+    }   
+}
 @media screen and (max-width: 450px) {
     .NavigationOptions a {
         margin: 15px;
@@ -1190,6 +1218,19 @@ input[type=submit]:hover {
         width: 100%;
         padding-left: 22px;
         padding-right: 22px;
+    }
+}
+@media screen and (max-width: 420px) {
+    .LewaAGH .Podsekcja {
+        height: 100px;
+    }
+    .PojemnikEdukacja {
+        height: 500px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .PojemnikEdukacja {
+        height: 500px;
     }
 }
 @media screen and (max-width: 350px) {

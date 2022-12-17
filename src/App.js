@@ -7,7 +7,6 @@ import SekcjaGlowna from './components/SekcjaGlowna'
 import PasekKontaktu from './components/PasekKontaktu'
 
 function App() {
-  let szerokosc = 0
   function mojTextFit() {
     let WybraneSekcjeTekstu = document.querySelectorAll(".KontrolaTekstu");
     if (window.screen.width > 849.9) {
