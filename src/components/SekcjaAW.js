@@ -21,12 +21,12 @@ const SekcjaAW = () => {
             Studio AW Projekt
             </div>
             <div className='Tekst KontrolaTekstu'>
-            Strona internetowa stworzona dla projektant wnętrz: Agnieszki Wójcik. 
-            <br/>Zbudowałem ją zupełnie na nowo, doprowadzając do wzrostu liczby <b>nowych
-            użytkowników</b> o <b>30%</b>. 
-            Ten projekt był wykonywany dla klienta i niestety kod pozostanie w 
-            trybie prywatnym. Zachęcam jednak do przeglądu kodu pozostałych.
-            </div>
+            Strona stworzona dla firmy "Studio AW Projekt".
+            Zbudowałem ją zupełnie na nowo, doprowadzając do wzrostu liczby <b>nowych
+            użytkowników</b> o około <b>30%</b> oraz otrzymywanych <b>propozycji współpracy</b> o około <b>5%</b>. 
+            Projekt był wykonywany dla firmy, a&nbsp;kod pozostanie w 
+            trybie prywatnym, jednak zachęcam do przeglądu kodu pozostałych.
+            </div> 
             <WRamce linki={linki} techIcons={techIcons} CzyGithub={CzyGithub}/>
         </div>
         <div className='PolowniczyPrawa PrawaAW'>
