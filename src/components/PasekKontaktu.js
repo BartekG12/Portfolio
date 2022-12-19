@@ -10,7 +10,7 @@ const PasekKontaktu = ({id}) => {
   return (
     <div className='PasekKontaktu' id={id}>
         <a target="_blank" rel="noreferrer" href='mailto:bartoszgurguldev@gmail.com'><img className='Ikona' src={Mail} alt="Mail" /></a>
-        <a target="_blank" rel="noreferrer" href='https://www.linkedin.com/in/bartosz-gurgul-b8a968233/'><img className='Ikona' src={Linkedin} alt="Linkedin" /></a>
+        <a target="_blank" rel="noreferrer" href='https://www.linkedin.com/in/bgdev/'><img className='Ikona' src={Linkedin} alt="Linkedin" /></a>
         <a target="_blank" rel="noreferrer" href='https://discordapp.com/users/681999707522072705'><img className='Ikona' src={Discord} alt="Discord" /></a>
         <span className='mobilnySeparatorKontaktu'></span>
         <a target="_blank" rel="noreferrer" href={PDF} download><img className='Ikona' src={Cv} alt="Cv" /></a>
