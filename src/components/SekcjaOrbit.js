@@ -26,7 +26,7 @@ const Orbity = () => {
         else return 'OrbitaNarzedzia'
     })
   return (
-    <div className='PolowniczyPojemnik'> 
+    <div className='PolowniczyPojemnik PojemnikOrbit'> 
         <div className='PolowniczyLewa LewaOrbity'>
         <div className='NazywamSie KontrolaTekstu'>
         Nazywam się Bartosz Gurgul i jestem programistą stron internetowych (full-stack developer).

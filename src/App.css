@@ -728,10 +728,67 @@ input[type=submit]:hover {
     100%{transform: rotate(-360deg);}
 }
 
+
+
 @media screen and (min-width: 2200px) {
     .Programista {
         width: 25%;
     }
+}
+@media screen and (min-width: 1779px) {
+    .n0, .n1, .n2, .n3, .n4, .n5, .n6, .n7   {
+        transform: rotate(120deg) scale(0.444,2.3);
+    }
+    .n8, .n9, .n10, .n11, .n12 {
+        transform: rotate(240deg) scale(0.444,2.3);
+    }
+    .PojemOrbitaUmiejetnosci .ElementOrbityWnetrze {
+        transform: scale(5, 1) rotate(240deg);
+    }
+    .PojemOrbitaNarzedzia .ElementOrbityWnetrze {
+        transform: scale(5, 1) rotate(120deg);
+    }
+    .Zawartosc {
+        max-width: 1800px;
+    }
+    .Ikona {
+        width: 50px;
+        margin-bottom: 38px;
+    }
+    .PojemnikOrbit { 
+        height: 500px;
+        line-height: 83px;
+    }
+    .Witam {
+        font-size: 40px
+    }
+    .LewaAGH .Tekst {
+        line-height: 60px;
+    }
+    .Zapraszam {
+        font-size: 1.55rem;
+        margin-top: -20px;
+    }
+    .Wdol {
+        font-size: 1.15rem;
+        margin-top: 25px;
+    }  
+    .Header {
+        max-width: 1800px;
+    }
+    .OtoczkaHeader {
+        height: 125px;
+    }
+    .NavOption {
+        font-size: 22px;
+    }
+    .LogoContainer {
+        height: 34px;
+    }
+    .Programista {
+        width: 45%;
+    }
+    
 }
 @media screen and (min-width: 1600px) {
     .PC {
