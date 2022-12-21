@@ -759,6 +759,10 @@ input[type=submit]:hover {
         height: 500px;
         line-height: 83px;
     }
+    .PojemnikOrbit { 
+        height: 500px !important;
+        line-height: 83px;
+    }
     .Witam {
         font-size: 40px
     }
@@ -788,7 +792,30 @@ input[type=submit]:hover {
     .Programista {
         width: 40%;
     }
-    
+    .PolowniczyPojemnik {
+        height: 420px;
+    }
+    .Podsekcja {
+        font-size: clamp(10px, 1.7vw, 40px);
+    }
+    .LewaPortfolio .KontrolaTekstu {
+        line-height: 60px;
+    }
+    input[type=text], textarea, input[type=email], input[type=tel] {
+        height: 87px;
+    }
+    .Etykieta {
+        font-size: 18px;
+        left: 30px;
+        top: 45px;
+    }
+    .EtykietaFokus {
+        left: 15px
+    }
+    input[type=submit] {
+        height: 90px;
+        font-size: 1.4rem;
+    }
 }
 @media screen and (min-width: 1600px) {
     .PC {
