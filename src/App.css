@@ -400,6 +400,8 @@ a {
 }
 .ZobaczStrone img {
     margin-top: 25px;
+}
+.LinkiStrony a:nth-child(1) {
     margin-right: 17px;
 }
 .GlowneTechnologie img:last-child, .ZobaczStrone a:last-child img {
@@ -815,6 +817,10 @@ input[type=submit]:hover {
     input[type=submit] {
         height: 90px;
         font-size: 1.4rem;
+    }
+    .cosWysyla, .nicWysyla, .nieWysyla, .takWysyla {
+        font-size: 1.4em;
+        top: -21px;
     }
 }
 @media screen and (min-width: 1600px) {
